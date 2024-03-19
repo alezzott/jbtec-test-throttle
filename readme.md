@@ -11,7 +11,7 @@ Este projeto demonstra o uso do Node.js com TypeScript para implementar uma lóg
 
 ## Propósito do Código
 
-O código implementa a função `throttle`, que aceita um número de "trabalhadores" (workers) e um array de tarefas assíncronas. A função executa essas tarefas em paralelo, limitando o número de tarefas executadas simultaneamente pelo número de workers especificado. Isso é alcançado através do uso de Promise.all e Promise.race.
+O código implementa a função `throttle`, que aceita um número de (workers) e um array de tarefas assíncronas. A função executa essas tarefas em paralelo, limitando o número de tarefas executadas simultaneamente pelo número de workers especificado.
 
 O projeto também inclui configurações para o Husky e o Commitlint. O Husky é configurado para executar o Commitlint antes de cada commit, garantindo que as mensagens de commit sigam um formato específico, como os [Convencional Commits](https://www.conventionalcommits.org/en/v1.0.0/)
 
